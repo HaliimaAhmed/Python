@@ -16,6 +16,7 @@ def divide(a,b):
 def multiply(a,b):
     return a*b
 
+#User menu 
 print("MENU: ")
 print("Please select a operation ")
 print("1.Add (+)")
