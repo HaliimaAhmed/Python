@@ -1,22 +1,16 @@
 import csv
 import mysql.connector
 
-'''
-By: Haliima Ahmed
-Course:CST8333 Programming Language Research Project
-Professor Name:Stanley Pieda
-Exercise: 4
-Due: March 8 th,2020
-Database connectivy:Inserting into the "database" table
-'''
+
+#Database connectivy:Inserting into the "database" table 
 data = mysql.connector.connect(user='root', passwd='halima', host='localhost', database='database')
 cursor = data.cursor()
 
+    # print programmer name 
+    print("Program written by Halima Ahmed")
 # this opens the datafile and reads
 with open('13100262.csv', 'r') as datafile:
     CSVreader = csv.reader(datafile)
-    # print Halima Ahmed
-    print("Program written by Halima Ahmed")
     # loops through the columns to display the top values and the header
     for row in CSVreader:
         cursor.execute(
