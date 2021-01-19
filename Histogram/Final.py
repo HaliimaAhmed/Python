@@ -3,10 +3,6 @@ from matplotlib import pyplot as plt
 
 """
 By: Haliima Ahmed
-Course:CST8333 Programming Language Research Project
-Professor Name:Stanley Pieda
-Final project
-Due: April 5th,2020
 This class Generates a Bar Chart Histogram to permit the user to visualize the age and gender data from the dataset
 """
 
