@@ -4,10 +4,6 @@ from methods import methods
 
 """
 By: Haliima Ahmed
-Course:CST8333 Programming Language Research Project
-Professor Name:Stanley Pieda
-Assignment: 3
-Due: March 4th,2020
 This is the unit test of the program. using a testing framework this program will test one part (displaying the records) of the program 
 """
 
