@@ -3,7 +3,6 @@ import threading
 from Entity import _Entity
 from Threading import Threading
 
-
 """
 By: Haliima Ahmed
 This class lets the user perform the functions defined inside methods.py and display it in the main menu.
