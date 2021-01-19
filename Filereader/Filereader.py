@@ -1,9 +1,5 @@
 '''
 By: Haliima Ahmed
-Course:CST8333 Programming Language Research Project
-Professor Name:Stanley Pieda
-Exercise: 3
-Due: Febuary 7th,2020
 This program reads the datafile from the CSV file and displays them in the columns below.
 '''
 
