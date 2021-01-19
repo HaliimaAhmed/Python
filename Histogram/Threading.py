@@ -5,10 +5,6 @@ from Entity import _Entity
 
 """
 By: Haliima Ahmed
-Course:CST8333 Programming Language Research Project
-Professor Name:Stanley Pieda
-Assignment: 4
-Due: March 25th,2020
 thread class that will load the records inside the dataset.  
 
 """
