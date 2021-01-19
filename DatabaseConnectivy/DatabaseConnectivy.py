@@ -22,5 +22,6 @@ with open('13100262.csv', 'r') as datafile:
             '"%(UOM_ID)s", "%(SCALAR_FACTOR)s", "%(SCALAR_ID)s"," %(VECTOR)s","%(COORDINATE)s", "%(VALUE)s", '
             '"%(STATUS)s"," %(SYMBOL)s", "%(TERMINATED)s", "%(DECIMALS)s")', row)
 
+   
     data.commit();
     data.close();
