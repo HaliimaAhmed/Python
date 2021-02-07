@@ -5,7 +5,7 @@ This program reads the datafile from the CSV file and displays them in the colum
 
 import csv
 # this opens the datafile and gets rid of the encoding before the firstline of code
-with open('13100262.csv', encoding='utf-8-sig') as datafile:
+with open('13100262.csv') as datafile:
 
     CSVreader = csv.reader(datafile)
     #print Halima Ahmed
