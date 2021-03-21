@@ -7,7 +7,7 @@ programs Entity
 class _Entity:
 
     def __init__(self, REF_DATE, GEO, DGUID, Sex, Age_group, Student_response, UOM, UOM_ID, SCALAR_FACTOR, SCALAR_ID,
-                 VECTOR, COORDINATE, VALUE, STATUS, SYMBOL, TERMINATED, DECIMALS):
+                 VECTOR, COORDINATE, VALUE, STATUS, SYMBOL, TERMINATED, Date,DECIMALS):
         self.REF_DATE = REF_DATE
         self.GEO = GEO
         self.DGUID = DGUID
@@ -24,4 +24,5 @@ class _Entity:
         self.STATUS = STATUS
         self.SYMBOL = SYMBOL
         self.TERMINATED = TERMINATED
+        self.Date = Date
         self.DECIMALS = DECIMALS
